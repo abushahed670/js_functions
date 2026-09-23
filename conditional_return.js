@@ -1,5 +1,5 @@
 function isEven(number){
-    if(number % 2){
+    if(number % 2===0){
         return true;
     }
     else{
@@ -8,3 +8,14 @@ function isEven(number){
 }
 console.log(isEven(5));
 console.log(isEven(110));
+
+//odd number
+
+function isOdd(number){
+    if (number % 2===1){
+        return true;
+    }
+    return false
+}
+console.log(isOdd(10));
+console.log(isOdd(7));
